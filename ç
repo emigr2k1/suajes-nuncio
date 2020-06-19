@@ -26,86 +26,86 @@
             <h2>Servicios</h2>
             <div class="apartados">
                 <div class="apartado">
-                    <div class="img" id="suajes-curvos-img">
+                    <div class="img">
                         <img src="img/servicios/suajes-curvos.jpg" alt="">
                     </div>
                     <div class="texto">
                         <h3>Suajes Curvos</h3>
                         <div class="cuerpo">
-                            <p>· Suaje curvo de 4 puntos para rodillo de 37.5", 50"
-                            y 66", para cartón corrugado sencillo y doble.</p>
+                            <p>Suaje curvo de 4 puntos para rodillo de 37.5", 50"
+                            y 66", para cartón corrugado sencillo y doble</p>
                         </div>
                     </div>
                 </div>
                 <div class="apartado">
-                    <div class="img" id="suajes-planos-img">
+                    <div class="img">
                         <img src="img/servicios/suajes-planos.jpg" alt="">
                     </div>
                     <div class="texto">
                         <h3>Suajes Planos</h3>
                         <div class="cuerpo">
-                            <p>· Suaje plano de 4 puntos en pleca filo liso y
+                            <p>Suaje plano de 4 puntos en pleca filo liso y
                             serrotado para cortar materiales como cartón
                             corrugado doble y sencillo, plástico y hule espuma.</p>
 
-                            <p>· Suaje plano de puntos en pleca filo liso para
+                            <p>Suaje plano de puntos en pleca filo liso para
                             cortar materiales como cartón corrugado sencillo,
                             micro corrugado, hule espuma y tela.</p>
 
-                            <p>· Suaje plano de 2 puntos en pleca filo liso, para
+                            <p>Suaje plano de 2 puntos en pleca filo liso, para
                             cortar materiales micro corrugado, caple,
                             sulfatado.</p>
                         </div>
                     </div>
                 </div>
                 <div class="apartado">
-                    <div class="img" id="grabados-img">
+                    <div class="img">
                         <img src="img/servicios/grabados.jpg" alt="">
                     </div>
                     <div class="texto">
                         <h3>Grabados</h3>
                         <div class="cuerpo">
-                            <p>· Grabados (fotopolímeros) para flexografía en
+                            <p>Grabados (fotopolímeros) para flexografía en
                             altura de 0.250"(milésimas).</p>
 
-                            <p>· Servicio de diseño, montaje y elaboración de
+                            <p>Servicio de diseño, montaje y elaboración de
                             Print-card.</p>
                         </div>
                     </div>
                 </div>
                 <div class="apartado">
-                    <div class="img" id="materiales-img">
+                    <div class="img">
                         <img src="img/servicios/materiales.jpg" alt="">
                     </div>
                     <div class="texto">
                         <h3>Materiales</h3>
                         <div class="cuerpo">
-                            <p>· Hule botador rojo, negro y gris, botador, hule
+                            <p>Hule botador rojo, negro y gris, botador, hule
                             festonado para ranura.</p>
 
-                            <p>· Madera curva para rodillo de 35", 50" y 66".</p>
+                            <p>Madera curva para rodillo de 35", 50" y 66".</p>
 
-                            <p>· Madera plana de 5/8 área de
+                            <p>Madera plana de 5/8 área de
                             1.52 m x 1.52 m.</p>
 
-                            <p>· Placa de fotopolímero sticky black, maylar.</p>
+                            <p>Placa de fotopolímero sticky black, maylar.</p>
 
-                            <p>· Pleca de 2, 3, y 4 puntos, serrotado y filo
-                            liso, perforadora y marcadora.</p>
+                            <p>Pleca de 2, 3, y 4 puntos, serrotado y filo
+                            liso, perforadora y marcadora</p>
                         </div>
                     </div>
                 </div>
                 <div class="apartado">
-                    <div class="img" id="venta-materiales-img">
+                    <div class="img">
                         <img src="img/servicios/venta-materiales.jpg" alt="">
                     </div>
                     <div class="texto">
                         <h3>Venta de Materiales</h3>
                         <div class="cuerpo">
-                            <p>· Hules - Botadores.</p>
-                            <p>· Plecas.</p>
-                            <p>· Maderas "66 x 90".</p>
-                            <p>· Maderas "54 x 90", "50 x 90", "38 x 90".</p>
+                            <p>Hules - Botadores</p>
+                            <p>Plecas</p>
+                            <p>Maderas "66 x 90"</p>
+                            <p>Maderas "54 x 90", "50 x 90", "38 x 90".</p>
                         </div>
                     </div>
                 </div>

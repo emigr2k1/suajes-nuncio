@@ -1,6 +1,7 @@
 :root {
     --dark-main: #201b2e;
     --dark-main-tr: #201b2ee6;
+    --dark-main-tr-2: #201b2e96;
     --light-main: #d5e3e8;
     --light-main-tr: #d5e3e8db;
 }
@@ -196,6 +197,70 @@ main section {
  */
 
 #seccion-servicios {
-
+    background: linear-gradient(var(--light-main-tr), var(--light-main-tr)), url(../img/suajes_trabajando.jpg);
+    padding: 30px 100px;
 }
 
+#seccion-servicios h2 {
+    color: var(--dark-main);
+    margin-bottom: 15px;
+}
+
+#seccion-servicios .apartados .apartado {
+    background-color: var(--dark-main);
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#seccion-servicios .apartados .apartado .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#seccion-servicios .apartados .apartado .img img {
+    width: 300px;
+}
+
+#seccion-servicios .apartados .apartado .texto {
+    padding: 10px 10px 10px 25px;
+}
+
+#seccion-servicios .apartados .apartado .texto h3 {
+    font-size: 22px;
+}
+
+#seccion-servicios .apartados .apartado .texto .cuerpo {
+    font-size: 18px;
+}
+
+#seccion-servicios .apartados .apartado .texto .cuerpo p {
+    margin-bottom: 7px;
+}
+
+#suajes-curvos-img {
+    background:  url(../img/servicios/suajes-curvos-blur.jpg);
+    background-size: cover;
+}
+
+#suajes-planos-img {
+    background:  url(../img/servicios/suajes-planos-blur.jpg);
+    background-size: cover;
+}
+
+#grabados-img {
+    background:  url(../img/servicios/grabados-blur.jpg);
+    background-size: cover;
+}
+
+#materiales-img {
+    background:  url(../img/servicios/materiales-blur.jpg);
+    background-size: cover;
+}
+
+#venta-materiales-img {
+    background:  url(../img/servicios/venta-materiales-blur.jpg);
+    background-size: cover;
+}
