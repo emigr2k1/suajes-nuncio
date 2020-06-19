@@ -12,6 +12,10 @@
     font-family: 'Saira';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /**
  ****** HEADER
  */
@@ -62,7 +66,7 @@ main section {
     width: 100%;
 }
 
-#seccion-servicios {
+#seccion-servicios-graficos {
     background: linear-gradient(var(--light-main-tr), var(--light-main-tr)), url(../img/suajes_trabajando.jpg);
     background-size: cover;
 }
@@ -95,7 +99,7 @@ main section {
     text-align: center;
 }
 
-#seccion-servicios .mas-info {
+#seccion-servicios-graficos .mas-info {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -103,7 +107,7 @@ main section {
     padding: 100px 0;
 }
 
-#seccion-servicios .mas-info a {
+#seccion-servicios-graficos .mas-info a {
     background-color: white;
     color: var(--dark-main);
     border-bottom: solid 3px var(--dark-main);
@@ -186,3 +190,12 @@ main section {
     width: 100%;
     height: 400px;
 }
+
+/*
+ * Servicios.html
+ */
+
+#seccion-servicios {
+
+}
+
