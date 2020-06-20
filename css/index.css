@@ -148,6 +148,10 @@ main section {
     background: rgba(0, 0, 0, 0.5);
 }
 
+/*
+ * Contacto
+ */
+
 #seccion-contacto {
     width: 100%;
     background: linear-gradient(var(--light-main-tr), var(--light-main-tr)), url(../img/suajes_trabajando.jpg);
@@ -158,6 +162,14 @@ main section {
     color: var(--dark-main);
     margin-bottom: 10px;
     font-size: 26px;
+}
+
+#seccion-contacto h3 {
+    font-size: 21px;
+}
+
+#seccion-contacto p {
+    font-size: 18px;
 }
 
 #seccion-contacto div.arriba, #seccion-contacto div.abajo div {
