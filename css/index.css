@@ -206,6 +206,11 @@ main section {
     height: 400px;
 }
 
+/*Safari fix*/
+#seccion-contacto {
+    color: white;
+}
+
 /*
  * Servicios.html
  */
