@@ -1,0 +1,16 @@
+[package]
+name = "img-manip"
+version = "0.1.0"
+authors = ["Emilio González <emigr2k1@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+image = "0.23.6"
+
+[[bin]]
+name = "generate"
+path = "bin/generate.rs"
+
+[[bin]]
+name = "resize"
+path = "bin/resize.rs"

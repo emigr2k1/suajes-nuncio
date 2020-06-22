@@ -1,0 +1,13 @@
+/home/emigr2k1/src/me/work/suajes-nuncio/util/img-manip/target/debug/deps/tiff-e69464db276cc83b.rmeta: /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/lib.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/mod.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/ifd.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/stream.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/mod.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/colortype.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/writer.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/error.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/tags.rs
+
+/home/emigr2k1/src/me/work/suajes-nuncio/util/img-manip/target/debug/deps/tiff-e69464db276cc83b.d: /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/lib.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/mod.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/ifd.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/stream.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/mod.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/colortype.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/writer.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/error.rs /home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/tags.rs
+
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/lib.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/mod.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/ifd.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/decoder/stream.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/mod.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/colortype.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/encoder/writer.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/error.rs:
+/home/emigr2k1/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.5.0/src/tags.rs:
