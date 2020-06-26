@@ -35,14 +35,21 @@ header {
 }
 
 header .left {
-    width: 100%;
     display: flex;
     align-items: center;
 }
 
 header .right {
+    width: 100%;
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
     margin-right: 50px;
+}
+
+header .right .redes-sociales-iconos {
+    display: flex;
+    align-items: center;
 }
 
 header .right i {
@@ -62,7 +69,7 @@ header .logo img {
 }
 
 header nav {
-    width: 80%;
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -419,27 +426,26 @@ main section {
 @media screen and (max-width: 770px) {
     header {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     header .logo {
         margin-left: 0;
     }
 
+    header .right {
+        margin-top: 10px;
+    }
+
     header nav {
         width: 100%;
         display: flex;
-        justify-content: center;
-        margin-top: 10px;
+        justify-content: flex-start;
         margin-left: 0;
     }
 
     header nav ul li {
         margin: 0 10px;
-    }
-
-    #seccion-servicios {
-        padding: 30px 20px;
     }
 
     #seccion-servicios .apartados .apartado .img img {
@@ -454,7 +460,7 @@ main section {
         font-size: 16px;
     }
 
-    #seccion-contacto {
+    #seccion-contacto, #seccion-servicios .contenedor {
         padding: 25px 20px;
     }
 
@@ -476,6 +482,11 @@ main section {
 
     #galeria a {
         width: 25%;
+    }
+
+    #galeria a img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -499,11 +510,6 @@ main section {
 
     #galeria a {
         width: 50%;
-    }
-
-    #galeria a img {
-        width: 100%;
-        height: 100%;
     }
 }
 
