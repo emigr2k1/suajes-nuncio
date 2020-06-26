@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block content %}
+<main>
+    <section id="seccion-servicios">
+        <div class="contenedor">
+            <h2>{% block service_title %}{% endblock service_title %}</h2>
+            <div class="apartados">
+                <div class="apartado">
+                    <div class="texto">
+                        <div class="arriba">
+                            <div class="cuerpo">
+                                {% block service_body %}{% endblock service_body %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id='galeria'>
+                {% block gallery_images %} {% endblock gallery_images %}
+            </div>
+        </div>
+
+        <div class="abrir-galeria">
+            <button>Ver más <i class="fa fa-caret-down"></i></button>
+        </div>
+    </section>
+
+    {% include "contacto.html" %}
+</main>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script>
+    $('[data-fancybox="gallery"]').fancybox({
+        thumbs: {
+            autoStart: true
+        }
+    });
+
+let galeria_abierta = false;
+let galeria = $("#galeria");
+
+let altura_deseada = $(window).height()-galeria.offset().top-10;
+let altura_maxima = 500;
+
+galeria.height(altura_deseada);
+$(".abrir-galeria button").click(function() {
+    if (!galeria_abierta) {
+        galeria.height("auto");
+        altura_maxima = galeria.outerHeight();
+        $(this).parent().css("position", "relative");
+        $(this).html("Ver menos <i class='fa fa-caret-up'></i>");
+    } else {
+        document.documentElement.style.scrollBehavior = "auto";
+        document.documentElement.scrollTop = document.documentElement.scrollTop - (altura_maxima - altura_deseada);
+        document.documentElement.style.scrollBehavior = "smooth";
+        galeria.height(altura_deseada);
+        $(this).parent().css("position", "absolute");
+        $(this).html("Ver más <i class='fa fa-caret-down'></i>");
+    }
+    galeria_abierta = !galeria_abierta;
+});
+</script>
+{% endblock content %}

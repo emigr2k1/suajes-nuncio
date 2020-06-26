@@ -31,6 +31,24 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+header .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .right {
+    display: flex;
+    margin-right: 50px;
+}
+
+header .right i {
+    color: white;
+    font-size: 22px;
+    margin: 0 20px;
 }
 
 header .logo {
@@ -93,6 +111,11 @@ main section {
     align-items: center;
     padding-bottom: 10px;
     text-decoration: none;
+    transition: all 0.1s;
+}
+
+.servicio-grafico:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .servicio-grafico img {
@@ -235,6 +258,10 @@ main section {
 
 #seccion-servicios {
     background: linear-gradient(var(--light-main-tr), var(--light-main-tr)), url(../img/suajes_trabajando.jpg);
+    position: relative;
+}
+
+#seccion-servicios .contenedor {
     padding: 30px 100px 10px 100px;
 }
 
@@ -351,6 +378,10 @@ main section {
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #ffffffdd;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .abrir-galeria button {
@@ -358,8 +389,9 @@ main section {
     color: var(--dark-main);
     border: none;
     font-size: 20px;
-    padding: 10px;
     cursor: pointer;
+    padding: 15px;
+    width: 100%;
 }
 
 @media screen and (max-width: 950px) {
