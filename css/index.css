@@ -80,10 +80,11 @@ main section {
     display: flex;
     margin: 0 50px;
     padding-top: 50px;
+    justify-content: center;
 }
 
 .servicio-grafico {
-    width: 20%;
+    width: 25%;
     min-width: 150px;
     margin: 0 10px;
     background-color: var(--dark-main);
@@ -159,12 +160,12 @@ main section {
 
 #seccion-contacto {
     width: 100%;
-    background: linear-gradient(var(--light-main-tr), var(--light-main-tr)), url(../img/suajes_trabajando.jpg);
+    background: linear-gradient(var(--dark-main-tr), var(--dark-main-tr)), url(../img/suajes_trabajando.jpg);
     padding: 25px 100px;
 }
 
 #seccion-contacto h2 {
-    color: var(--dark-main);
+    color: white;
     margin-bottom: 10px;
     font-size: 22px;
 }
@@ -178,8 +179,13 @@ main section {
 }
 
 #seccion-contacto .arriba, #seccion-contacto .abajo div {
-    background-color: var(--dark-main);
+    /*background-color: var(--dark-main);*/
+    border: solid 1px white;
     color: white;
+}
+
+#seccion-contacto .abajo .margin {
+    border: none;
 }
 
 #seccion-contacto .arriba {
@@ -229,7 +235,7 @@ main section {
 
 #seccion-servicios {
     background: linear-gradient(var(--light-main-tr), var(--light-main-tr)), url(../img/suajes_trabajando.jpg);
-    padding: 30px 100px;
+    padding: 30px 100px 10px 100px;
 }
 
 #seccion-servicios h2 {
@@ -238,10 +244,9 @@ main section {
 }
 
 #seccion-servicios .apartados .apartado {
-    background-color: var(--dark-main);
     color: white;
     display: flex;
-    margin-bottom: 20px;
+    background-color: var(--dark-main);
 }
 
 #seccion-servicios .apartados .apartado .img {
@@ -255,7 +260,7 @@ main section {
 }
 
 #seccion-servicios .apartados .apartado .texto {
-    padding: 10px 10px 10px 25px;
+    padding: 10px 10px 10px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -272,6 +277,10 @@ main section {
 
 #seccion-servicios .apartados .apartado .texto .cuerpo p {
     margin-bottom: 7px;
+}
+
+#seccion-servicios .apartados .apartado .texto .cuerpo p:last-child {
+    margin-bottom: 0px;
 }
 
 #seccion-servicios .apartados .apartado .texto a {
@@ -311,17 +320,46 @@ main section {
  * Galeria
  */
 
-#contenedor {
+#galeria {
     width: 100%;
-    height: 100vh;
-    display: flex;
-
-    flex-direction: column;
+    height: 300px;
+    overflow: hidden;
 }
 
-#contenedor #galeria {
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#galeria a {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#galeria a img {
+    border: solid 1px white;
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+.abrir-galeria {
     width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.abrir-galeria button {
+    background: transparent;
+    color: var(--dark-main);
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 950px) {
@@ -333,7 +371,7 @@ main section {
     }
 
     .servicio-grafico {
-        width: calc(33% - 20px);
+        width: calc(50% - 20px);
         margin: 10px;
     }
 
@@ -392,12 +430,20 @@ main section {
         font-size: 22px;
     }
 
+    #seccion-nosotros .apartado {
+        padding: 25px 20px;
+    }
+
     #seccion-nosotros .apartado h3, #seccion-contacto h3 {
         font-size: 18px;
     }
 
     #seccion-nosotros .apartado .texto, #seccion-contacto p {
         font-size: 16px;
+    }
+
+    #galeria a {
+        width: 25%;
     }
 }
 
@@ -419,8 +465,13 @@ main section {
         font-size: 18px;
     }
 
-    #seccion-nosotros .apartado {
-        padding: 25px 20px;
+    #galeria a {
+        width: 50%;
+    }
+
+    #galeria a img {
+        width: 100%;
+        height: 100%;
     }
 }
 

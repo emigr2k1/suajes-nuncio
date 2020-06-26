@@ -8,14 +8,10 @@ fn main() {
     for item in dir {
         let item = item.unwrap();
         let name = item.file_name().into_string().unwrap();
-        let name = name[0..name.len()-3].to_string();
+        let name = name[0..name.len()-4].to_string();
 
-        if name.contains("thumbnail") {
-            std::fs::remove_file(item.path()).unwrap();
-        }
-
-        if !name.contains("resized") && !name.contains("thumbnail") {
-            html.push_str(&format!("    <img src='{}/{}-resized.jpg'>\n", prefix, name));
+        if name.ends_with("resized") {
+            html.push_str(&format!("    <a data-fancybox='gallery' href='{0}/{1}.jpg'><img src='{0}/{1}.-thumbnail.jpg'></a>\n", prefix, name));
         }
     }
 
