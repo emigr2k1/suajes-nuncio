@@ -491,6 +491,19 @@ main section {
 }
 
 @media screen and (max-width: 550px) {
+
+    header .right {
+        justify-content: space-between;
+    }
+
+    header .right nav ul li a, header .right .redes-sociales-iconos i  {
+        font-size: 16px;
+    }
+
+    header .right .redes-sociales-iconos i {
+        margin: 0 8px;
+    }
+
     .servicio-grafico {
         flex-direction: row;
         width: 100%;
